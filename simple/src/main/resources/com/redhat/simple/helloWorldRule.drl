@@ -1,0 +1,9 @@
+package com.redhat.simple;
+
+rule "Hello World"
+
+	when
+	
+	then
+		System.out.println("Hello Drools");
+end
