@@ -24,14 +24,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.jboss.spec</groupId>
-			<artifactId>jboss-javaee-6.0</artifactId>
-			<version>3.0.0.Final-redhat-1</version>
-			<type>pom</type>
-			<scope>provided</scope>
-		</dependency>
-
-		<dependency>
 			<groupId>org.drools</groupId>
 			<artifactId>drools-compiler</artifactId>
 			<version>6.0.2-redhat-6</version>
@@ -47,6 +39,8 @@
 			<artifactId>logback-core</artifactId>
 			<version>1.0.7</version>
 		</dependency>
+		
+		<!-- The logging api -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
