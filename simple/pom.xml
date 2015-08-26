@@ -46,6 +46,13 @@
 			<artifactId>slf4j-api</artifactId>
 			<version>1.6.6</version>
 		</dependency>
+		
+		<!--Rules repository-->
+		<dependency>
+			<groupId>com.redhat</groupId>
+			<artifactId>tqadri-simple-knowledge</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
